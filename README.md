@@ -13,6 +13,7 @@ Bundled MCPs for takumi and other mcp clients.
 - [desktop-commander](https://github.com/wonderwhy-er/DesktopCommanderMCP)
 - [umi](https://github.com/umijs/umi-mcp)
 - [memory-bank](https://github.com/allpepper/memory-bank-mcp)
+- [21st](https://github.com/21st-dev/magic-mcp)
 
 ## LICENSE
 

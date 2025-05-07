@@ -25,6 +25,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@21st-dev/magic": "^0.0.47",
     "@allpepper/memory-bank-mcp": "^0.2.1",
     "@browserbasehq/mcp-browserbase": "^0.5.1",
     "@modelcontextprotocol/server-filesystem": "^2025.3.28",
