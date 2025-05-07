@@ -14,6 +14,9 @@ importers:
       '@allpepper/memory-bank-mcp':
         specifier: ^0.2.1
         version: 0.2.1
+      '@amap/amap-maps-mcp-server':
+        specifier: ^0.0.8
+        version: 0.0.8
       '@browserbasehq/mcp-browserbase':
         specifier: ^0.5.1
         version: 0.5.1
@@ -99,6 +102,10 @@ packages:
 
   '@allpepper/memory-bank-mcp@0.2.1':
     resolution: {integrity: sha512-NO3fekzj+jZs+xtwPQE0OhEMeqXg7vc9/7U1zET/rCIptnaMsVYwAXBywxn+S8sOXyDw1bwVDTaC5j2o/VYUgQ==}
+    hasBin: true
+
+  '@amap/amap-maps-mcp-server@0.0.8':
+    resolution: {integrity: sha512-Kg5rYr0azYdN09NP63jUYssKG4Vx8qM92bVIQa8agajjmaasI7J01UK/jGg8Ptima4A8I5RY7ch0m6BaVte5PQ==}
     hasBin: true
 
   '@babel/code-frame@7.27.1':
@@ -2492,6 +2499,12 @@ snapshots:
       fs-extra: 11.3.0
     transitivePeerDependencies:
       - supports-color
+
+  '@amap/amap-maps-mcp-server@0.0.8':
+    dependencies:
+      '@modelcontextprotocol/sdk': 1.0.1
+      '@types/node-fetch': 2.6.12
+      node-fetch: 3.3.2
 
   '@babel/code-frame@7.27.1':
     dependencies:
