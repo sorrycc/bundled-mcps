@@ -14,6 +14,7 @@ Bundled MCPs for takumi and other mcp clients.
 - [umi](https://github.com/umijs/umi-mcp)
 - [memory-bank](https://github.com/allpepper/memory-bank-mcp)
 - [21st](https://github.com/21st-dev/magic-mcp)
+- [sitemcp](https://github.com/ryoppippi/sitemcp)
 
 ## LICENSE
 
