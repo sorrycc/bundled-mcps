@@ -17,9 +17,6 @@ importers:
       '@amap/amap-maps-mcp-server':
         specifier: ^0.0.8
         version: 0.0.8
-      '@browserbasehq/mcp-browserbase':
-        specifier: ^0.5.1
-        version: 0.5.1
       '@modelcontextprotocol/server-filesystem':
         specifier: ^2025.3.28
         version: 2025.3.28(zod@3.24.4)
@@ -143,13 +140,6 @@ packages:
   '@babel/types@7.27.1':
     resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
     engines: {node: '>=6.9.0'}
-
-  '@browserbasehq/mcp-browserbase@0.5.1':
-    resolution: {integrity: sha512-DORK17eUQGB6PSaDg4i9HPNnUDgKUEsw+ndhq1VI3IIIxUgOMeu0rwqAmThWqPs6YjHC30omc84uIZAe5XQ5dg==}
-    hasBin: true
-
-  '@browserbasehq/sdk@2.5.0':
-    resolution: {integrity: sha512-bcnbYZvm5Ht1nrHUfWDK4crspiTy1ESJYMApsMiOTUnlKOan0ocRD6m7hZH34iSC2c2XWsoryR80cwsYgCBWzQ==}
 
   '@esbuild/aix-ppc64@0.25.4':
     resolution: {integrity: sha512-1VCICWypeQKhVbE9oW/sJaAmjLxhVqacdkvPLEjwlttjfwENRSClS8EjBz0KzRyFSCPDIkuXW34Je/vk7zdB7Q==}
@@ -2650,30 +2640,6 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
-
-  '@browserbasehq/mcp-browserbase@0.5.1':
-    dependencies:
-      '@browserbasehq/sdk': 2.5.0
-      '@modelcontextprotocol/sdk': 1.11.0
-      puppeteer-core: 23.11.1
-    transitivePeerDependencies:
-      - bare-buffer
-      - bufferutil
-      - encoding
-      - supports-color
-      - utf-8-validate
-
-  '@browserbasehq/sdk@2.5.0':
-    dependencies:
-      '@types/node': 18.19.96
-      '@types/node-fetch': 2.6.12
-      abort-controller: 3.0.0
-      agentkeepalive: 4.6.0
-      form-data-encoder: 1.7.2
-      formdata-node: 4.4.1
-      node-fetch: 2.7.0
-    transitivePeerDependencies:
-      - encoding
 
   '@esbuild/aix-ppc64@0.25.4':
     optional: true
